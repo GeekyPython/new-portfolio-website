@@ -1,0 +1,89 @@
+.about
+{
+    display: flex;
+    align-items: center;
+    height: 25%;
+    /* background-color: lightblue; */
+}
+
+.about-text h1
+{
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #f4f4a1;
+    margin-bottom: 1rem;
+}
+
+.about-text.light h1
+{
+    color: #021526;
+}
+.about-text p
+{
+    font-size: 1.2rem;
+    color: #cbd5e1;
+}
+
+.about-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    /* background-color: bisque; */
+    width: 50%;
+    padding: 0 5%;
+}
+
+.about-image
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/public/assets/brick-wall-bg.jpg') no-repeat center center; /* Background image for the photo frame */
+}
+
+.about-image img
+{
+    width: 400px;
+    height: 440px;
+    border-radius: 10px;
+    transform: rotate(-10deg);
+    border: 10px solid #fff; /* White border for the photo frame */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8), /* Subtle shadow for depth */
+                0 6px 30px rgba(0, 0, 0, 0.8); /* Additional shadow for realism */
+    
+}
+
+@media (max-width: 768px)
+{
+    .about
+    {
+        flex-direction: column;
+        height: 25%;
+    }
+    .about-text
+    {
+        width: 100%;
+        height: 100%;
+        padding: 0 10%;
+    }
+    .about-text p
+    {
+        font-size: 1.2rem;
+        padding: 0 2%;
+    }
+    .about-image
+    {
+        display: none;
+    }
+    .about-image img
+    {
+        width: 250px;
+        height: 300px;
+    }
+}

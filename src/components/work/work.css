@@ -1,0 +1,132 @@
+.work-page
+{
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+
+.work-list-container
+{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.work-list
+{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-rows: repeat(auto-fit, 300px);
+    gap: 25px;
+    /* background-color: magenta; */
+    max-height: 100%;
+    height: 625px;
+    width: 950px;
+    box-sizing: border-box;
+}
+
+.work-tile
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 2% 2%;
+    max-width: 300px; /* Set a maximum width */
+    max-height: 300px; /* Set a maximum height */
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.work-container
+{
+    height: 95%;
+    width: 93%;
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.work-container p
+{
+    color: #cbd5e1 !important;
+}
+
+.work-container h2
+{
+    color: #f4f4a1;
+}
+
+@keyframes fadeSlideIn
+{
+    0% {
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.work-tile:hover .work-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeSlideIn 0.5s ease forwards;
+}
+
+.work-description
+{
+    height: 70%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.3rem;
+}
+
+.work-nav
+{
+    height: 20%;
+    width: 50%;
+    background-color: #021526;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #cbd5e1;
+}
+
+@media (max-width: 768px)
+{
+    .work-page
+    {
+        padding-top: 20%;
+    }
+    .work-list
+    {
+        width: 100%;
+        height: 100%;
+        grid-template-columns: repeat(auto-fit, 300px);
+        grid-template-rows: repeat(auto-fit, 300px);
+        gap: 10px;
+        max-height: 200%;
+        height: 1540px; 
+        width: 300px;
+    }
+}

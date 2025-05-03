@@ -1,0 +1,27 @@
+[
+    {
+      "title": "E-Commerce Platform",
+      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
+      "description": "A full-stack e-commerce platform with user authentication, product management, and payment integration."
+    },
+    {
+      "title": "Social Media App",
+      "imageUrl": "https://images.unsplash.com/photo-1519241047957-be31d7379a5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
+      "description": "A social media application featuring user profiles, posts, likes, and real-time chat functionality."
+    },
+    {
+      "title": "Task Management Tool",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
+      "description": "A task management tool with drag-and-drop functionality, team collaboration, and progress tracking."
+    },
+    {
+      "title": "Online Learning Platform",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
+      "description": "A platform for online courses with video streaming, quizzes, and progress tracking for students."
+    },
+    {
+      "title": "Blog CMS",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
+      "description": "A content management system for blogs with support for rich text editing, tagging, and SEO optimization."
+    }
+  ]
