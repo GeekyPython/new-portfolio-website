@@ -16,7 +16,7 @@ export const WorkTile = (props) => {
                     <p>{description}</p>
                 </div>
                 <div className="work-nav">
-                    <a href="#" target="_blank">Learn more</a>
+                    <a href="#about" target="_blank">Learn more</a>
                 </div>
             </div>
         </div>
