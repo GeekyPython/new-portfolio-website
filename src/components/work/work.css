@@ -1,17 +1,18 @@
 .work-page
 {
-    padding: 5% 0;
+    padding-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    /* background-color: aqua; */
+    overflow: hidden;
+    height: 25%;
+    /* background-color:azure; */
 }
 
 .work-list-container
 {
-    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,13 +26,14 @@
     display: grid;
     justify-items: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, 300px);
-    grid-template-rows: repeat(auto-fit, 300px);
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, 230px);
+    grid-template-rows: repeat(auto-fit, 230px);
+    column-gap: 50px;
+    row-gap: 30px;
     /* background-color: magenta; */
     max-height: 100%;
-    height: 625px;
-    width: 950px;
+    height: 490px;
+    width: 790px;
     box-sizing: border-box;
 }
 
@@ -42,8 +44,8 @@
     height: 100%;
     box-sizing: border-box;
     padding: 2% 2%;
-    max-width: 300px; /* Set a maximum width */
-    max-height: 300px; /* Set a maximum height */
+    /*max-width: 300px; */
+    /* max-height: 300px; */
     display: flex;
     align-self: center;
     flex-direction: column;
@@ -116,17 +118,18 @@
 {
     .work-page
     {
-        padding-top: 20%;
+        padding-top: 15%;
+        height: 50%;
     }
     .work-list
     {
+        font-size: 0.68em;
         width: 100%;
         height: 100%;
-        grid-template-columns: repeat(auto-fit, 300px);
-        grid-template-rows: repeat(auto-fit, 300px);
-        gap: 10px;
-        max-height: 200%;
-        height: 1540px; 
-        width: 300px;
+        grid-template-columns: repeat(auto-fit, 200px);
+        grid-template-rows: repeat(auto-fit, 200px);
+        gap: 15px;
+        height: 1040px; 
+        width: 200px;
     }
 }

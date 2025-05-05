@@ -5,6 +5,7 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: space-around;
+    box-sizing: border-box;
 }
 
 .intro.light h1

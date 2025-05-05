@@ -3,7 +3,9 @@
     display: flex;
     align-items: center;
     height: 25%;
+    /* padding-top: 10%; */
     /* background-color: lightblue; */
+    box-sizing: border-box;
 }
 
 .about-text h1
@@ -14,6 +16,7 @@
     text-align: center;
     color: #f4f4a1;
     margin-bottom: 1rem;
+    box-sizing: border-box ;
 }
 
 .about-text.light h1
@@ -30,11 +33,13 @@
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 80%;
+    justify-content: space-between;
+    padding-bottom: 20%;
+    height: 100%;
+    box-sizing: border-box;
     /* background-color: bisque; */
     width: 50%;
-    padding: 0 5%;
+    padding: 5% 0%;
 }
 
 .about-image
@@ -63,19 +68,20 @@
 {
     .about
     {
+        padding-top: 16%;
         flex-direction: column;
-        height: 25%;
     }
+
     .about-text
     {
         width: 100%;
         height: 100%;
-        padding: 0 10%;
+        padding: 0 15%;
     }
+
     .about-text p
     {
-        font-size: 1.2rem;
-        padding: 0 2%;
+        font-size: 1.05rem;
     }
     .about-image
     {

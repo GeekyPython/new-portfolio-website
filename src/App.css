@@ -21,9 +21,10 @@ a
   display: flex;
   flex-direction: column;
   transition: background-color 0.3s ease, color 0.3s ease;
-  height: 100%;
+  height: 400vh;
   animation: fade-in 0.5s ease;
   font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
 }
 .App.light
 {
@@ -117,6 +118,11 @@ a
 }
 
 @media (max-width: 768px) {
+  .App
+  {
+    height: 500vh;
+  }
+
   .navbar {
     padding-right: 10%; 
   }

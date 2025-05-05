@@ -49,11 +49,11 @@ export const ContactPage = () => {
                 </div>
                 <div className="contact-info">
                     <div className="contact-detail">
-                        <FontAwesomeIcon icon={faEnvelope} size="2xl" />
+                        <FontAwesomeIcon icon={faEnvelope} size="2xl" className="contact-detail-icon"/>
                         <p>purohitiyer@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                        <FontAwesomeIcon icon={faLocation} size="2xl" />
+                        <FontAwesomeIcon icon={faLocation} size="2xl" className="contact-detail-icon"/>
                         <p>Mahbub Nagar, Nagawara, Bengaluru - 560045</p>
                     </div>
                     <hr/>

@@ -5,7 +5,7 @@ body, #root{
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 450vh;
+  /* height: auto; */
   transition: background-color 0.3s ease, color 0.3s ease;
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -13,7 +13,7 @@ body, #root{
 
 @media screen and (max-width: 768px) {
   body, #root {
-    height: 620vh;
+    height: 400vh;
   }
 }
 

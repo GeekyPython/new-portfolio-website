@@ -6,6 +6,8 @@
     /* background-color: aqua; */
     height: 25%;
     width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .contact-container
@@ -41,6 +43,8 @@
     width: 50%;
     padding: 5% 0;
 }
+
+
 
 .contact-info hr
 {
@@ -83,9 +87,21 @@
     
     .contact-section
     {
-        padding-top: 11%;
-        height: 25%;
+        padding-top: 15%;
+        height: 35%;
     }
+
+
+    .contact-detail
+    {
+        padding: 0 1rem;
+    }
+
+    .contact-detail-icon
+    {
+        font-size: 1.45rem;
+    }
+
     .contact-container
     {
         flex-direction: column;
