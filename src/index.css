@@ -13,7 +13,7 @@ body, #root{
 
 @media screen and (max-width: 768px) {
   body, #root {
-    height: 450vh;
+    height: 500vh;
   }
 }
 
