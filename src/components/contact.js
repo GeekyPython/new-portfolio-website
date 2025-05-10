@@ -1,6 +1,6 @@
 import { TextField, Button } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faLocation } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faLocation, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faFacebook, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import './styles/contact.css';
 import { useSelector } from "react-redux";
@@ -53,8 +53,8 @@ export const ContactPage = () => {
                         <p>purohitiyer@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                        <FontAwesomeIcon icon={faLocation} size="2xl" className="contact-detail-icon"/>
-                        <p>Mahbub Nagar, Nagawara, Bengaluru - 560045</p>
+                        <FontAwesomeIcon icon={faPhone} size="2xl" className="contact-detail-icon"/>
+                        <p>+91 9121913666</p>
                     </div>
                     <hr/>
                     <div className="socials">

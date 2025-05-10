@@ -69,7 +69,7 @@
 {
     .about
     {
-        padding-top: 15%;
+        padding-top: 10vh;
         flex-direction: column;
         justify-content: center;
     }

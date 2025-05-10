@@ -83,7 +83,7 @@
 }
 
 /* Mobile view */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
     .contact-section
     {
         height: 65vh;
@@ -119,6 +119,6 @@
 
     .copyright
     {
-        margin-top: 5rem;
+        margin-top: 3rem;
     }
 }

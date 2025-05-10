@@ -133,10 +133,10 @@ h2
   font-size: 1.4rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .App
   {
-    height: 385vh;
+    height: 375vh;
   }
   .navbar {
     padding-right: 10%; 

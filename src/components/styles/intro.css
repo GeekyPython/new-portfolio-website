@@ -1,6 +1,7 @@
 .intro
 {
     height: 100vh;
+    padding-top: 10vh;
     display: flex;
     box-sizing: border-box;
     align-items: center;

@@ -13,15 +13,5 @@
       "title": "Task Management Tool",
       "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
       "description": "A task management tool with drag-and-drop functionality, team collaboration, and progress tracking."
-    },
-    {
-      "title": "Online Learning Platform",
-      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
-      "description": "A platform for online courses with video streaming, quizzes, and progress tracking for students."
-    },
-    {
-      "title": "Blog CMS",
-      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
-      "description": "A content management system for blogs with support for rich text editing, tagging, and SEO optimization."
     }
   ]
