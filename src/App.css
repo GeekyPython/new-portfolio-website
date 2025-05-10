@@ -21,11 +21,12 @@ a
   display: flex;
   flex-direction: column;
   transition: background-color 0.3s ease, color 0.3s ease;
-  height: 400vh;
   animation: fade-in 0.5s ease;
   font-family: "Rubik", sans-serif;
   box-sizing: border-box;
+  height: 400vh;
 }
+
 .App.light
 {
   background-color: #FFF1D5;
@@ -75,6 +76,11 @@ a
   z-index: 100;
 }
 
+.navbar h1
+{
+  font-size: 1.7rem;
+}
+
 .navbar.light
 {
   background-color: #9EC6F3;
@@ -117,12 +123,21 @@ a
   color: yellow;
 }
 
+h1
+{
+  font-size: 2.5rem;
+}
+
+h2
+{
+  font-size: 1.4rem;
+}
+
 @media (max-width: 768px) {
   .App
   {
-    height: 500vh;
+    height: 385vh;
   }
-
   .navbar {
     padding-right: 10%; 
   }

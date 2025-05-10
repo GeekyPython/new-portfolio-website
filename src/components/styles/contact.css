@@ -2,12 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 5%;
     /* background-color: aqua; */
-    height: 25%;
+    height: 100vh;
+    padding: 0;
     width: 100%;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 .contact-container
@@ -23,7 +22,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
     width: 50%;
+    padding: 0 10%;
     height: 100%;
     box-sizing: border-box;
     /* background-color: bisque; */
@@ -31,7 +32,7 @@
 
 .contact-inputs
 {
-    width: 50% !important;
+    width: 50%;
     color: #4b5563;
 }
 
@@ -78,56 +79,46 @@
 
 .copyright
 {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
+/* Mobile view */
 @media screen and (max-width: 768px){
-    
     .contact-section
     {
-        padding-top: 15%;
-        height: 27%;
+        height: 65vh;
+        padding: 5vh 0 10vh 0;
     }
-
-
-    .contact-detail
-    {
-        padding: 0 1rem;
-    }
-
-    .contact-detail-icon
-    {
-        font-size: 1.45rem;
-    }
-
     .contact-container
     {
         flex-direction: column;
+        align-items: center;
+    }
+    .contact-inputs, .contact-form
+    {
         width: 100%;
     }
-
     .contact-form
     {
-        margin: 0;
+        display: none;
+        padding: 0;
     }
-
-    .contact-form, .contact-info
+    .contact-info
+    {
+        width: 100%;
+        padding: 0;
+    }
+    .contact-info hr
     {
         width: 100%;
     }
-
-    .copyright
-    {
-        margin-top: 9rem;
-    }
-
-    .contact-info hr
+    .socials
     {
         width: 80%;
     }
 
-    .socials
+    .copyright
     {
-        width: 65%;
+        margin-top: 5rem;
     }
 }
