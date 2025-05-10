@@ -114,16 +114,27 @@
 {
     .about
     {
-        padding-top: 15%;
-        height: 100vh;
+        padding-top: 10vh;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         overflow: hidden;
         /* background-color: #4b5563; */
     }
 
+    .about-image
+    {
+        display: none;
+    }
+
     .about-content p
     {
-        font-size: 2em;
+        font-size: 1.8em;
+        padding: 0;
+        margin-bottom: 4vh; 
+    }
+
+    .about-text
+    {
+        width: 80%;
     }
 }

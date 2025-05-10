@@ -37,8 +37,10 @@ export const ContactPage = () => {
 
     return (
         <div className="contact-section" id="contact">
-            <h1>Contact Me</h1>
-            <h2>I'd love to hear from you!</h2>
+            <div className="contact-header">
+                <h1>Contact Me</h1>
+                <h2>I'd love to hear from you!</h2>
+            </div>
 
             <div className="contact-container">
                 <div className="contact-form">

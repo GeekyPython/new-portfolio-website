@@ -133,7 +133,7 @@ h2
   font-size: 1.4rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .App
   {
     height: 375vh;
@@ -143,5 +143,37 @@ h2
   }
   .navlink {
     margin: 0 0.5rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .App
+  {
+    height: 415vh;
+  }
+
+  .App h1
+  {
+    font-size: 3.5rem;
+  }
+
+  .App h2
+  {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    padding-right: 10%; 
+  }
+
+  .navlink 
+  {
+    margin: 0 0.8rem;
+    font-size: 1.7rem;
+  }
+
+  .theme-toggle
+  {
+    font-size: 1.8rem;
   }
 }
