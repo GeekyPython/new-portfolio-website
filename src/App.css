@@ -46,12 +46,20 @@ a
 
 .App.light h1
 {
-  color: #2c3e50;
+  /* color: #2c3e50; */
+  color: #2A2E35;
+}
+
+.App.light h2
+{
+  /* color: #2c3e50; */
+  color: #4E535C;
 }
 
 .App.light p
 {
-  color: #36454F;
+  /* color: #36454F; */
+  color: #60656E;
 }
 
 .page-controls
@@ -84,7 +92,8 @@ a
 .navbar.light
 {
   background-color: #9EC6F3;
-  color: #021526;
+  /* color: #021526; */
+  color: #2E3D4F;
 }
 
 .navbar.dark

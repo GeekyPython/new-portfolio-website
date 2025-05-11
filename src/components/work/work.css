@@ -47,7 +47,7 @@
 
 .work-description h2
 {
-    color: #f4f4a1;
+    color: #f4f4a1 !important;
 }
 
 .work-container
