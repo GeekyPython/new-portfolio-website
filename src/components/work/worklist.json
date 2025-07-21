@@ -1,13 +1,13 @@
 [
     {
-      "title": "E-Commerce Platform",
-      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
-      "description": "A full-stack e-commerce platform with user authentication, product management, and payment integration."
+      "title": "Rajveer Dairy",
+      "imageUrl": "https://res.cloudinary.com/dkldt8niz/image/upload/v1753065121/My%20Portfolio%20website/rajveer-dairy_p2frji.jpg",
+      "description": "A responsive website built to promote fresh milk, dairy products, and traditional sweets. Highlights include product sections, smooth navigation, and clean visuals to enhance local brand visibility."
     },
     {
-      "title": "Social Media App",
-      "imageUrl": "https://images.unsplash.com/photo-1519241047957-be31d7379a5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
-      "description": "A social media application featuring user profiles, posts, likes, and real-time chat functionality."
+      "title": "Naman's Photography",
+      "imageUrl": "https://res.cloudinary.com/dkldt8niz/image/upload/v1753065133/My%20Portfolio%20website/namans-portfolio_vekjuv.jpg",
+      "description": "A minimal and elegant website designed to showcase high-resolution photography across genres like portraits, landscapes, and events. Focused on immersive layouts and gallery experience."
     },
     {
       "title": "Task Management Tool",
