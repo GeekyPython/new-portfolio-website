@@ -84,7 +84,7 @@
     }
     .intro-text
     {
-        height: 100%;
+        height: 100vh;
         /* background-color: #4b5563; */
         justify-content: center;
         /* margin-top: 10%; */

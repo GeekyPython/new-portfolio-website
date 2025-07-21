@@ -103,8 +103,9 @@
 @media screen and (max-width: 768px){
     .contact-section
     {
-        height: 65vh;
+        height: 70vh;
         padding: 5vh 0 10vh 0;
+        /* background-color: aliceblue; */
     }
 
     .contact-header

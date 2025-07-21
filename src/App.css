@@ -145,7 +145,7 @@ h2
 @media (max-width: 768px) {
   .App
   {
-    height: 375vh;
+    height: 430vh;
   }
   .navbar {
     padding-right: 10%; 
