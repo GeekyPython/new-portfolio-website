@@ -9,7 +9,7 @@ export const WorkPage = () => {
       <div className="work-list-container">
         <div className="work-list">
             {workList.map((work, index) => {
-                return <WorkTile key={index} title={work.title} description={work.description} imageUrl={work.imageUrl} />;
+                return <WorkTile key={index} title={work.title} description={work.description} imageUrl={work.imageUrl} jobLink={work.jobLink} />;
             })}
         </div>
     </div>

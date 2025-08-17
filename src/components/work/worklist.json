@@ -2,16 +2,13 @@
     {
       "title": "Rajveer Dairy",
       "imageUrl": "https://res.cloudinary.com/dkldt8niz/image/upload/v1753065121/My%20Portfolio%20website/rajveer-dairy_p2frji.jpg",
-      "description": "A responsive website built to promote fresh milk, dairy products, and traditional sweets. Highlights include product sections, smooth navigation, and clean visuals to enhance local brand visibility."
+      "description": "A responsive website built to promote fresh milk, dairy products, and traditional sweets. Highlights include product sections, smooth navigation, and clean visuals to enhance local brand visibility.",
+      "jobLink": "https://rajveer-dairy.netlify.app/"
     },
     {
       "title": "Naman's Photography",
       "imageUrl": "https://res.cloudinary.com/dkldt8niz/image/upload/v1753065133/My%20Portfolio%20website/namans-portfolio_vekjuv.jpg",
-      "description": "A minimal and elegant website designed to showcase high-resolution photography across genres like portraits, landscapes, and events. Focused on immersive layouts and gallery experience."
-    },
-    {
-      "title": "Task Management Tool",
-      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
-      "description": "A task management tool with drag-and-drop functionality, team collaboration, and progress tracking."
+      "description": "A minimal and elegant website designed to showcase high-resolution photography across genres like portraits, landscapes, and events. Focused on immersive layouts and gallery experience.",
+      "jobLink": "https://namans-photography-portfolio.netlify.app"
     }
   ]

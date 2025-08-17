@@ -1,7 +1,7 @@
 import './work.css';
 
 export const WorkTile = (props) => {
-    const { title, description, imageUrl } = props;
+    const { title, description, imageUrl, jobLink } = props;
     const imageStyle = {
         background: `url(${imageUrl})`,
         backgroundSize: 'cover',
@@ -16,7 +16,7 @@ export const WorkTile = (props) => {
                     <p>{description}</p>
                 </div>
                 <div className="work-nav">
-                    <a href="https://rajveer-dairy.netlify.app/" target="_blank" rel="noreferrer">Learn more</a>
+                    <a href={jobLink} target="_blank" rel="noreferrer">Learn more</a>
                 </div>
             </div>
         </div>

@@ -1,11 +1,12 @@
 .work-page
 {
     height: 100vh;
+    padding-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    /* background-color: aqua; */
+    justify-content: flex-start;
+    background-color: aqua;
     box-sizing: border-box;
 }
 
@@ -30,9 +31,9 @@
     row-gap: 30px;
     /* background-color: magenta; */
     height: 300px;
-    width: 1050px;
+    width: 650px;
     box-sizing: border-box;
-    margin: 0;
+    margin-top: 10vh;
     padding: 0;
 }
 
